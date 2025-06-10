@@ -1,0 +1,107 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+  .outerbtn{
+    position: fixed;
+    background-color: white;
+    padding: 5px 0px;
+    bottom: 0px;
+    width: 100%;
+    left:0px;
+    justify-content: center !important;
+  }
+  .whatsappbtn, .callbtn{
+    font-size: 14px;
+    padding: 7px 12px;
+    margin-bottom: 0px;
+
+  }
+  .bannerContent h1{
+    font-size: 33px;
+    font-weight:700;
+  }
+  .bannerContent br{
+    display:none;
+  }
+  .bannerContent p, .bannerContent ul li{
+    font-size: 14px;
+  }
+  .bannerContentBtn{
+    flex-direction:column ;
+    font-size: 12px;
+    padding: 0;
+
+  }
+  .bannerContentBtn button{
+   width: 100%;
+  
+  }
+  .bannerForm{
+    padding: 30px;
+  }
+  .outerbtn .btn{
+    background-color: black;
+    padding:2px 10px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+  }
+  .counterSection{
+    text-align: center;
+  }
+  .highlightsItems{
+    align-items: center;
+    justify-content: center;
+    
+    }
+    #navbarNav{
+      display: block;
+      justify-content: center;
+    }
+    .navbar-nav .nav-item .nav-link{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      padding-left:45%;
+      margin-top: 50px;
+  
+    }
+    
+}
+
+@media (min-width:576px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    max-width: 992px;
+  }
+  .navbar-nav .nav-item .nav-link{
+    display: block;
+    text-align: center;
+    padding-left:45%;
+    margin-top: 50px;
+
+  }
+  #navbarNav{
+    display: block;
+    justify-content: center;
+  }
+}
+@media (min-width:993px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    max-width: 1200px;
+  }
+  .counterSection{
+    text-align: center;
+    }
+    #navbarNav{
+      display: block;
+      justify-content: center;
+    }
+  .navbar-nav .nav-item .nav-link{
+    display: block;
+    text-align: center;
+    /* padding-left:40%; */
+    margin-top: 50px;
+
+  }
+    
+    
+  
+}
